@@ -1,8 +1,8 @@
-# Résolution 3-SAT du jeu de Squaro
+# Résolution du jeu de Squaro
 
-Projet INF242
-Année 2012 - 2013  -  Université Joseph Fourier
-Auteur : Évariste Daller
+Projet INF242\
+Année 2012 - 2013  -  Université Joseph Fourier\
+Auteur : Évariste Daller\
 
 Ce projet permet de générer et résoudre des plateaux du jeu Squaro (exemple simple [ici](https://jerevise.net/jeux/enigmath/jeu23.php) de taille variable, en s'appuyant sur une modélisation SAT et une résolution à l'aide de l'algorithme [DPLL](https://fr.wikipedia.org/wiki/Algorithme_DPLL).
 
@@ -78,7 +78,7 @@ Affiche une aide à l'utilisation
 ## Exemple de sortie
 
 ```
-evariste@buntu-studio:~/Bureau/squaro_v1.0_src$ ./squaro.sh gen 5 plateau.plt -v
+evariste@buntu-studio:~/Bureau/squaro_sat$ ./squaro.sh gen 5 plateau.plt -v
 O---O---O---O---O---O 
 | 2 | 2 | 2 | 2 | 2 | 
 O---O---O---O---O---O 
@@ -92,7 +92,7 @@ O---O---O---O---O---O
 O---O---O---O---O---O 
 
 
-evariste@buntu-studio:~/Bureau/squaro_v1.0_src$ ./squaro.sh res plateau.plt 
+evariste@buntu-studio:~/Bureau/squaro_sat$ ./squaro.sh res plateau.plt 
   [I] La modélisation ne peut être affichée (trop de clauses) 
   [I] Pour information : 181 clauses 
 
